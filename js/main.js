@@ -18,9 +18,9 @@
 
 // initialize fitvids.js
 // Remove /* and */ to initiate the plugin
-/* $(document).ready(function(){
-    $(".fitvids").fitVids(); // target your .container, .wrapper, .post, etc.
-}); */
+ $(document).ready(function(){
+    $(".videowrapper").fitVids(); // target your .container, .wrapper, .post, etc.
+}); 
 
 
 // initialize bigtext.js
@@ -53,7 +53,7 @@
 
 // initialize responsiveslides.js
 // Remove /* and */ to initiate the plugin
-/* $(function () {
+ $(function () {
     $(".slider").responsiveSlides({
         auto: false,
         pager: false,
@@ -61,4 +61,4 @@
         speed: 500,
         namespace: "callbacks"
     });
-}); */
+});
